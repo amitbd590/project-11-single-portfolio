@@ -413,6 +413,10 @@ li {
     font-family: 'Oswald', sans-serif;
    
 }
+#experinece .text:hover h2{
+    color: #00ffee;
+   
+}
 #experinece .box p{
    font-size: 16px;
     color: #ddd;
@@ -638,4 +642,91 @@ margin-top: 70px;
 #SERVICES .card:hover .card-title,
 #SERVICES .card:hover .card-text{
     color: #0b032d;
+}
+
+
+
+
+#portfolio{
+    margin-top: 150px;
+}
+#portfolio .part-1 h1{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #00ffee;
+}
+#portfolio .part-1 h2{
+    font-size: 44px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+}
+#portfolio .part-1 .t-color{
+    color: #00ffee;
+}
+#portfolio .part-2 .wrap{
+    margin-left: 58px;
+}
+#portfolio .part-2 p{
+    margin-top: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 30px;
+    position: relative;
+}
+#portfolio .part-2 p::after{
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 46px;
+    background: #00ffee;
+    top: 4px;
+    left: 0;
+}
+
+#portfolio .part-3 {
+   position: relative;
+}
+#portfolio .owl-carousel {
+    margin-top: 80px;
+    
+}
+#portfolio .owl-item.active {
+    padding: 10px 20px;
+    
+}
+#portfolio .owl-nav {
+    display: flex;
+    position: absolute;
+    top: -132px;
+    right: 0;
+    padding: 0 10px;
+
+}
+#portfolio .owl-nav .owl-prev{
+    font-size: 25px;
+   background: #00ffee;
+   padding: 10px 20px;
+   border-radius: 10px;
+   margin-right: 17px;
+   border: 2px solid #00ffee;
+   transition: .3s;
+}
+#portfolio .owl-nav .owl-prev:hover{
+   background: #00ffee00;
+   color: #fff;
+}
+#portfolio .owl-nav .owl-next{
+    font-size: 25px;
+    background: #00ffee;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #00ffee;
+    transition: .3s;
+}
+#portfolio .owl-nav .owl-next:hover{
+    background: #00ffee00;
+    color: #fff;
+ }
+#portfolio .disabled{
+   display: none !important;
 }
