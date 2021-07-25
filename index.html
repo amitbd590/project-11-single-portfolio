@@ -19,6 +19,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <!-- Google font -->
+    <!-- Animation css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Animation css -->
     <!-- Font awesome icon -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -26,6 +29,7 @@
     <!-- Font awesome icon -->
     <link rel="stylesheet" href="./css/radial-themes.css">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/type.css">
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
@@ -34,7 +38,7 @@
 <body>
 
     <main id="main">
-        <menu id="menu">
+        <header class="">
             <div class="container">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand" href="index.html"><img src="./img/logo-2.png" alt=""></a>
@@ -45,28 +49,62 @@
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+                        <ul id="nav" class="navbar-nav ml-auto">
+                            <li class="nav-item current ">
+                                <a class="nav-link " href="#About"> About Us </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
+                                <a class="nav-link" href="#experinece">Experinece </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link" href="#SERVICES">Services</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Support</a>
+                                <a class="nav-link" href="#portfolio">Project</a>
                             </li>
-                            <li class="login-btn">
-                                <a class="btnClass" href="#"> Login </a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Work</a>
+                            </li>
+                            <li class="login-btn animate__animated animate__rubberBand">
+                                <!-- <a class="btnClass" href=""> It's Me </a> -->
+                                <p class="btnClass">It's Me</p>
                             </li>
 
                         </ul>
                     </div>
                 </nav>
+
             </div>
-        </menu>
+        </header>
+
+        <!-- Layout -->
+
+        <section id="layout">
+            <div id="myBtn" class="overlay">
+              <div class="wrap">
+                <div class="icon">
+                    <span class="remove_btn"><i class="fas fa-times"></i></span>
+                <span class="arrow_btn"><i class="fas fa-arrow-left"></i></span>
+                </div>
+                  
+                <img class="img-fluid" src="./img/logo-2.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ratione reprehenderit, error qui enim sit ex provident iure, dolor, nulla eaque delectus, repudiandae commodi. Velit assumenda odit quisquam at, error suscipit unde, necessitatibus ipsum ratione excepturi ducimus labore, totam dolorem.</p>
+
+                <!-- <div class="Social">
+                    <span class="text">Follow Us : </span>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div> -->
+
+                <div class="img-sin d-flex">
+                    <img class="img-fluid amit" src="./img/amit.jpg" alt="">
+                    <img class="img-fluid sing" src="./img/signature.png" alt="">
+                </div>
+              </div>
+            </div>
+        </section>
 
         <!-- Hero Bar -->
         <section id="hero">
@@ -75,7 +113,7 @@
                 <div class="row">
                     <div class="col-lg-6 part-1">
                         <div class="wrapper">
-                            <h2>
+                            <h2 class="animate__animated animate__bounce">
                                 Great Solutions To <br> Design Your Website
                             </h2>
                             <p>
@@ -91,7 +129,7 @@
                                 <a href="#"><i class="fab fa-facebook-square"></i></a>
                                 <a href="#"><i class="fab fa-twitter-square"></i></a>
                                 <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/amitbiswas-tm/"><i class="fab fa-linkedin-in"></i></a>
 
 
                             </div>
@@ -105,7 +143,7 @@
             </div>
         </section>
         <!-- About Us -->
-        <section id="about-us">
+        <section id="About">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5">
@@ -115,7 +153,42 @@
                             </div>
                             <div class="overlay"></div>
                             <div class="contact-btn">
-                                <a class="btn btn-contact" href="#">Contact Us</a>
+                                <!-- <a class="btn btn-contact" href="#">Contact Us</a> -->
+                                <p class="btn-contact">Contact Us</p>
+                               
+                            </div>
+                            <div id="contact_file_popUp" class="contact_file d-flex">
+                                <div class="main ">
+                                    <div class="icon">
+                                        <span class="remove_btn_2"><i class="fas fa-times"></i></span>
+                                    <span class="arrow_btn"><i class="fas fa-arrow-left"></i></span>
+                                    </div>
+                                  <div class="text_group text-center">
+                                    <h2 class="head_text">Contact Form</h2>
+                                    <p class="text_1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, vitae!</p>
+                                   
+                                  </div>
+                                  <div class="address d-flex">
+                                      <div class="part-1 w-50">
+                                          <h2>Local Address:</h2>
+                                          <p> Name : Amit Biswas <br>
+                                            Blog : <a href="https://getmore7.com/">getmore7.com/</a> <br>
+                                            Email : admin@goclick.us <br>
+                                            Mobile No: +8801814331350 <br>
+                                            Country Name : Bangladesh <br>
+                                        </p>
+                                      </div>
+                                      <div class="part-2 w-50">
+                                        <h2>Social Media:</h2>
+                                        <div class="icon-all">
+                                            <a href="https://www.linkedin.com/in/amitbiswas-tm/" target="blank"><i class="fab fa-linkedin"></i></a>
+                                            <a href="https://web.facebook.com/alvida120/" target="blank"><i class="fab fa-facebook-square"></i></a>
+                                            <a href="https://www.instagram.com/alvida_amit/" target="blank"><i class="fab fa-instagram"></i></a>
+                                            <a href="https://twitter.com/amitgoclick" target="blank"><i class="fab fa-twitter-square"></i></a>
+                                        </div>
+                                      </div>
+                                  </div>
+                                </div>
                             </div>
                         </figure>
                     </div>
@@ -129,16 +202,15 @@
                                     company, we are offering online HR systems that can be customized depending on your
                                     business needs.
                                 </p>
-                                <a class="btn btn-cv" href="#">DOWNLOAD CV</a>
+                                <a class="btn btn-cv" href="./pdf/Profile.pdf" download >DOWNLOAD CV</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
 
-        <!-- experinece -->
+        <!-- EXPERIENCE -->
 
         <section id="experinece">
             <div class="container">
@@ -200,7 +272,7 @@
 
         </section>
         <!-- percent_work -->
-        <section>
+        <section id="percent_work">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3">
@@ -379,61 +451,62 @@
                                 <div class="owl-stage">
                                     <div class="owl-item">
                                         <div class="main">
-                                            <img class="img-fluid" src="./img/food-1.png" alt="">
+                                            <a href="./portfolio.html"><img class="img-fluid" src="./img/food-1.png" alt=""></a>
+                                           
                                             <div class="overlay"></div>
                                         </div>
                                     </div>
                                     <div class="owl-item">
                                         <div class="main">
-                                            <img class="img-fluid" src="./img/food-2.png" alt="">
+                                           <a href="./portfolio.html"> <img class="img-fluid" src="./img/food-2.png" alt=""></a>
                                             <div class="overlay"></div>
                                         </div>
                                     </div>
                                     <div class="owl-item">
                                         <div class="main">
-                                            <img class="img-fluid" src="./img/food-3.png" alt="">
+                                            <a href="./portfolio.html"><img class="img-fluid" src="./img/food-3.png" alt=""></a>
                                             <div class="overlay"></div>
                                         </div>
                                     </div>
                                     <div class="owl-item">
                                         <div class="main">
-                                            <img class="img-fluid" src="./img/food-4.png" alt="">
+                                            <a href="./portfolio.html"><img class="img-fluid" src="./img/food-4.png" alt=""></a>
                                             <div class="overlay"></div>
                                         </div>
                                     </div>
                                     <div class="owl-item">
                                         <div class="main">
-                                            <img class="img-fluid" src="./img/food-5.png" alt="">
+                                            <a href="./portfolio.html"><img class="img-fluid" src="./img/food-5.png" alt=""></a>
                                             <div class="overlay"></div>
                                         </div>
                                     </div>
                                     <div class="owl-item">
                                         <div class="main">
-                                            <img class="img-fluid" src="./img/food-6.png" alt="">
+                                           <a href="./portfolio.html"> <img class="img-fluid" src="./img/food-6.png" alt=""></a>
                                             <div class="overlay"></div>
                                         </div>
                                     </div>
                                     <div class="owl-item">
                                         <div class="main">
-                                            <img class="img-fluid" src="./img/food-7.png" alt="">
+                                           <a href="./portfolio.html"> <img class="img-fluid" src="./img/food-7.png" alt=""></a>
                                             <div class="overlay"></div>
                                         </div>
                                     </div>
                                     <div class="owl-item">
                                         <div class="main">
-                                            <img class="img-fluid" src="./img/food-8.png" alt="">
+                                           <a href="./portfolio.html"> <img class="img-fluid" src="./img/food-8.png" alt=""></a>
                                             <div class="overlay"></div>
                                         </div>
                                     </div>
                                     <div class="owl-item">
                                         <div class="main">
-                                            <img class="img-fluid" src="./img/food-9.png" alt="">
+                                           <a href="./portfolio.html"> <img class="img-fluid" src="./img/food-9.png" alt=""></a>
                                             <div class="overlay"></div>
                                         </div>
                                     </div>
                                     <div class="owl-item">
                                         <div class="main">
-                                            <img class="img-fluid" src="./img/food-10.png" alt="">
+                                            <a href="./portfolio.html"><img class="img-fluid" src="./img/food-10.png" alt=""></a>
                                             <div class="overlay"></div>
                                         </div>
                                     </div>
@@ -441,8 +514,8 @@
                                 </div>
                             </div>
                             <div class="owl-nav">
-                                <div class="owl-prev"><i class="fas fa-arrow-left"></i></div>
-                                <div class="owl-next"><i class="fas fa-arrow-right"></i></div>
+                                <div class="owl-prev-1"><i class="fas fa-arrow-left"></i></div>
+                                <div class="owl-next-1"><i class="fas fa-arrow-right"></i></div>
                             </div>
 
                         </div>
@@ -668,84 +741,175 @@
                                     <img class="card-img-top" src="./img/blog-1.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <h3 class="date">jun 28, 2021</h3>
-                                      <h4 class="card-title">Addiction When Gambling</h4>
-                                      <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia earum temporibus suscipit.
-                                      </p>
-                                      <a href="#!" class="btn">Read More </a>
+                                        <h4 class="card-title">Addiction When Gambling</h4>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia
+                                            earum temporibus suscipit.
+                                        </p>
+                                        <a href="#!" class="btn">Read More </a>
                                     </div>
-                                  </div>                                  
-                            </div>  
+                                </div>
+                            </div>
                             <div class="testimonial">
                                 <div class="card">
                                     <img class="card-img-top" src="./img/blog-2.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <h3 class="date">jun 28, 2021</h3>
-                                      <h4 class="card-title">Addiction When Gambling</h4>
-                                      <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia earum temporibus suscipit.
-                                      </p>
-                                      <a href="#!" class="btn">Read More </a>
+                                        <h4 class="card-title">Addiction When Gambling</h4>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia
+                                            earum temporibus suscipit.
+                                        </p>
+                                        <a href="#!" class="btn">Read More </a>
                                     </div>
-                                  </div>                                  
-                            </div>  
+                                </div>
+                            </div>
                             <div class="testimonial">
                                 <div class="card">
                                     <img class="card-img-top" src="./img/blog-3.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <h3 class="date">jun 28, 2021</h3>
-                                      <h4 class="card-title">Addiction When Gambling</h4>
-                                      <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia earum temporibus suscipit.
-                                      </p>
-                                      <a href="#!" class="btn">Read More </a>
+                                        <h4 class="card-title">Addiction When Gambling</h4>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia
+                                            earum temporibus suscipit.
+                                        </p>
+                                        <a href="#!" class="btn">Read More </a>
                                     </div>
-                                  </div>                                  
-                            </div>  
+                                </div>
+                            </div>
                             <div class="testimonial">
                                 <div class="card">
                                     <img class="card-img-top" src="./img/blog-4.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <h3 class="date">jun 28, 2021</h3>
-                                      <h4 class="card-title">Addiction When Gambling</h4>
-                                      <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia earum temporibus suscipit.
-                                      </p>
-                                      <a href="#!" class="btn">Read More </a>
+                                        <h4 class="card-title">Addiction When Gambling</h4>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia
+                                            earum temporibus suscipit.
+                                        </p>
+                                        <a href="#!" class="btn">Read More </a>
                                     </div>
-                                  </div>                                  
-                            </div>  
+                                </div>
+                            </div>
                             <div class="testimonial">
                                 <div class="card">
                                     <img class="card-img-top" src="./img/blog-5.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <h3 class="date">jun 28, 2021</h3>
-                                      <h4 class="card-title">Addiction When Gambling</h4>
-                                      <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia earum temporibus suscipit.
-                                      </p>
-                                      <a href="#!" class="btn">Read More </a>
+                                        <h4 class="card-title">Addiction When Gambling</h4>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia
+                                            earum temporibus suscipit.
+                                        </p>
+                                        <a href="#!" class="btn">Read More </a>
                                     </div>
-                                  </div>                                  
-                            </div>  
+                                </div>
+                            </div>
                             <div class="testimonial">
                                 <div class="card">
                                     <img class="card-img-top" src="./img/blog-6.jpg" alt="Card image cap">
                                     <div class="card-body">
                                         <h3 class="date">jun 28, 2021</h3>
-                                      <h4 class="card-title">Addiction When Gambling</h4>
-                                      <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia earum temporibus suscipit.
-                                      </p>
-                                      <a href="#!" class="btn">Read More </a>
+                                        <h4 class="card-title">Addiction When Gambling</h4>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sunt officia
+                                            earum temporibus suscipit.
+                                        </p>
+                                        <a href="#!" class="btn">Read More </a>
                                     </div>
-                                  </div>                                  
-                            </div>  
+                                </div>
+                            </div>
                         </div>
                         <div class="owl-nav">
                             <div class="owl-prev"><i class="fas fa-arrow-left"></i></div>
                             <div class="owl-next"><i class="fas fa-arrow-right"></i></div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWSLETTER -->
+
+        <section id="newsletter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 m-auto text-center">
+                        <div class="wrap">
+                            <h2 class="top-text">NEWSLETTER</h2>
+                            <h2 class="head-text">STAY UP TO DATE, SUBSCRIBE <br> TO THE FREE <span
+                                    class="c-text">NEWSLETTER !</span></h2>
+                        </div>
+
+                        <div class="cta-form">
+                            <form action="#">
+                                <input type="email" placeholder="Enter Your Email..">
+                                <a href="#" class="subscribe-btn">subscribe <i class="fal fa-comments-alt"></i></a>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 part-1">
+                        <div class="wrap">
+                            <img class="img-fluid logo" src="./img/logo-2.png" alt="">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, atque nisi cum quis dolore dolorem quam id suscipit porro quo?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 part-2">
+                        <div class="wrap">
+                            <h2>OUR MISSION</h2>
+                            <hr>
+                            <ul>
+                                <li>Digital Marketing.</li>
+                                <li>Affiliate Marketing.</li>
+                                <li>New Product Review.</li>
+                                <li>Email Marketing.</li>
+                                <li>Complete SEO.</li>
+                                <li>Web Development.</li>
+                                <li>Web Design.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 part-3">
+                        <div class="wrap">
+                            <h2>IMPORTANT LINKS</h2>
+                            <hr>
+                            <ul>
+                                <li><a href="#">Disclaimer</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms of Use</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Advertise</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 part-4">
+                        <div class="wrap">
+                            <h2>Work Us</h2>
+                            <hr>
+                            <div class="images d-flex">
+                                <img class="img-fluid" src="./img/fiverr.png" alt="">
+                                <img class="img-fluid" src="./img/upwork.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col text-center copy_write">
+                        <p>&#169; Getmore7 - 2021</p>
                     </div>
                 </div>
             </div>
@@ -772,6 +936,7 @@
     <!-- bootstrap -->
     <script src="./js/ratePoint.js"></script>
     <script src="./js/owl.carousel.js"></script>
+    <script src="./js/nav.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
